@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Corben:bold&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nobile&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="registration.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Medi <span style="color: white;">-Chat</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#login">Log Out</a></li>
+                     <li><a href="#login">Ask AI-Chat</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="whole-Container">
+            <h2>Book an appointment with the Medichat Doctors</h2>
+            <p>
+                Fill the form below and we will get back to you soon for more Update
+                and plan for your appointment
+            </p>
+            <form class="form">
+                <label for="firstname">Full Name</label>
+                <div class="name-container">
+                    <input type="text" id="firstname" placeholder="First-name" required />
+                    <input type="text" id="lastname" placeholder="Last-name" required />
+                </div>
+                <label for="dateofbirth">Date of Birth</label>
+                <input type="date" id="dateofbirth" name="dateofbirth" required />
+
+                <div class="gender-phone-container">
+                    <div class="gender-container">
+                        <label for="gender">Gender</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="phone-container">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" placeholder="000-000-0000" required />
+                    </div>
+                </div>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+
+                <div class="department-container">
+                    <label for="department">
+                        Which department would you like to get an appointment
+                        from
+                    </label>
+                    <select type="text" id="department" name="department" required >
+                        <option value="">Select Department</option>
+                        <option value="department1">General practitioner</option>
+                        <option value="department2">Dermatologist</option>
+                        <option value="department3">Nutritionist</option>
+                        <option value="department4">Gynecologist</option>
+                      </select>
+                    </div>
+                    <div class="doctor-container">
+                    <label for="doctor">Which doctor would you like to get an appointment from</label>
+                    <select type="text" id="doctor" name="doctor" required>
+                        <option value="">Select Doctor</option>
+                        <option value="doctor1">Yuri</option>
+                        <option value="doctor2">Dorrie S. Smith</option>
+                        <option value="doctor3">Ronald S. Smith</option>
+                        <option value="doctor3">Sven Harris</option>
+                        
+                    </select>
+                </div>
+                <div class="appointment-container">
+                    <label for="appointmentdate">Preferred appointment date</label>
+                    <input type="date" id="appointmentdate" required />
+                </div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+                <div></div>
+            </form>
+        </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Medi-Chat</p>
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Corben', Georgia, Times, serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+header {
+  background-color: #739ced;
+  background-size: auto;
+  color: s#010509;
+  padding: 1rem;
+  height: 160px;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+header nav a:hover {
+  background-color: #248df0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+header nav a:hover {
+    background-color: #555;
+}
+main{
+    width: 100%;
+}
+/* Centering the whole container */
+.whole-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3e3e3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    min-height: 100vh;
+    margin: 0 auto; 
+}
+.whole-Container h2 {
+    text-align: center;
+}
+.whole-Container p {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.form {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Styling form elements */
+.form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="email"],
+.form input[type="tel"],
+.form select,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+/* Styling submit button */
+.form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+
+}
+
+.form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Aligning labels to the left */
+.form label {
+    text-align: left;
+}
+
+/* Styling containers */
+.gender-phone-container,
+.department-container,
+.doctor-container,
+.appointment-container {
+    margin-bottom: 15px;
+}
+.name-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+/* Styling gender and phone containers */
+.gender-phone-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling gender and phone fields */
+.gender-container,
+.phone-container {
+    width: 48%;
+}
+
+/* Styling appointment date field */
+.appointment-container input[type="date"] {
+    width: calc(100% - 105px);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 1rem;
+}
