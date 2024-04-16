@@ -1,6 +1,6 @@
 # MediChat_SE-Foundations_G8
 The Healthcare Chatbot project is proposed to address the need for accessible and personalized health information through an AI-powered chatbot. This chatbot will leverage natural language processing (NLP) techniques and healthcare knowledge bases to provide users with personalized responses to their medical queries. The project aims to overcome challenges related to limited participation by fostering collaboration and team engagement. Moving forward, the project will focus on the development of the chatbot's functionalities, ensuring its effectiveness in providing accurate and helpful guidance to users.
-Included in this README is the entire development process which the project will have and how it funtions:
+Included in this README is the entire development process that the project will have and how it functions:
 Prerequisites
 Python 3.x
 Flask
